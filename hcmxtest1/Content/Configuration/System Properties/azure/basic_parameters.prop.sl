@@ -15,3 +15,4 @@ properties:
   - AZURE_CLIENT_ID: 2f23d8d8-cf92-4667-831e-df1c8780b8bc
   - AZURE_CLIENT_SECRET: Wm8lLB3YKyG2OuQHlEbpLrW-SybcVay.0z
   - AZURE_TENANT_ID: 5886dd34-5dc8-4555-a258-9908d63027e7
+  - IP_NAME: python-example-ip

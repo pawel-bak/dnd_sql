@@ -9,11 +9,12 @@ flow:
         publish:
           - groupName
         navigate:
-          - SUCCESS: createPublicNic
+          - SUCCESS: createPublicNicEx
           - FAILURE: on_failure
-    - createPublicNic:
+    - createPublicNicEx:
         do:
-          mssql_project.operations.azure.network.createPublicNic:
+          mssql_project.operations.azure.network.createPublicNicEx:
+            - nicName: testPub_1
             - groupName: '${groupName}'
         navigate:
           - SUCCESS: SUCCESS
@@ -27,11 +28,11 @@ extensions:
       createAzureGroup:
         x: 288
         'y': 204
-      createPublicNic:
-        x: 459
-        'y': 208
+      createPublicNicEx:
+        x: 453
+        'y': 213
         navigate:
-          0caf7a1c-4745-bd71-5f60-fb58a12e6e7f:
+          d7b482ca-c465-1802-57b6-1d155d2ac3b3:
             targetId: 71251056-246b-7aaf-00d5-d35b3bdb9bf0
             port: SUCCESS
     results:
