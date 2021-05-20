@@ -79,6 +79,12 @@ extensions:
       createStorageAccount:
         x: 306
         'y': 286
+      createWindowsVM:
+        x: 652
+        'y': 292
+      extendOSDisk:
+        x: 806
+        'y': 291
       startVM:
         x: 976
         'y': 304
@@ -86,12 +92,6 @@ extensions:
           7008ee53-e966-0ac4-1ab2-00d68c7f5e52:
             targetId: 850294cc-d910-a82b-1024-d6ea1c8bf477
             port: SUCCESS
-      createWindowsVM:
-        x: 652
-        'y': 292
-      extendOSDisk:
-        x: 806
-        'y': 291
       createPublicNicEx:
         x: 472
         'y': 295
